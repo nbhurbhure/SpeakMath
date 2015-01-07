@@ -16,5 +16,31 @@ namespace SpeakMath
         {
             InitializeComponent();
         }
+
+        private void btnChallenge_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/Challenge.xaml", UriKind.Relative));
+        }
+
+        private void btnPractice_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/Challenge.xaml", UriKind.Relative));
+        }
+
+        private void btnHighscore_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/HighScore.xaml", UriKind.Relative));
+        }
+
+        private void btnSettings_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/Settings.xaml", UriKind.Relative));
+        }
+
+        private void btnInformation_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/Information.xaml", UriKind.Relative));
+        }
+
     }
 }

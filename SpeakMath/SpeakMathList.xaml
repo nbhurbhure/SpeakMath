@@ -45,8 +45,12 @@
         </Grid>
 
         <!--ContentPanel - place additional content here-->
-        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,151,12,0">
-
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="5,42,19,109">
+            <Button x:Name="btnChallenge" Content="CHALLENGE" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="1" Margin="0,30,0,0" Foreground="#FF0BF7F7" BorderBrush="#FFA491F9" Width="468" Click="btnChallenge_Click"/>
+            <Button x:Name="btnPractice" Content="PRACTICE" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="1" Margin="0,110,0,0" Foreground="#FF0BF7F7" BorderBrush="#FFA491F9" Width="468" Click="btnPractice_Click"/>
+            <Button x:Name="btnHighscore" Content="HIGH SCORE" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="1" Margin="0,190,0,0" Foreground="#FF0BF7F7" BorderBrush="#FFA491F9" Width="468" Click="btnHighscore_Click"/>
+            <Button x:Name="btnSettings" Content="SETTINGS" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="1" Margin="0,270,0,0" Foreground="#FF0BF7F7" BorderBrush="#FFA491F9" Width="468" Click="btnSettings_Click"/>
+            <Button x:Name="btnInformation" Content="INFORMATION" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="1" Margin="0,350,0,0" Foreground="#FF0BF7F7" BorderBrush="#FFA491F9" Width="468" Click="btnInformation_Click"/>
         </Grid>
     </Grid>
 

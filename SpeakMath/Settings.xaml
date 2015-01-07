@@ -46,7 +46,11 @@
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-
+            <RadioButton Content="LEVEL ONE" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="49,85,0,0" Height="83" Width="228" Foreground="#FF09F9D8" GroupName="Levels"/>
+            <RadioButton Content="LEVEL TWO" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="45,182,0,0" Height="82" Width="228" Foreground="#FF09F9D8" GroupName="Levels"/>
+            <RadioButton Content="LEVEL THREE" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="44,278,0,0" Height="83" Width="228" Foreground="#FF09F9D8" GroupName="Levels"/>
+            <TextBlock Text="LEVEL" Style="{StaticResource PhoneTextNormalStyle}" Margin="20,43,223,537" Foreground="#FF06F5E0"/>
+            <Button Content="CLEAR HIGH SCORE" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="14,429,0,0" Foreground="#FF0BF7F7" BorderBrush="#FFA491F9" Width="417" Height="83"/>
         </Grid>
     </Grid>
 

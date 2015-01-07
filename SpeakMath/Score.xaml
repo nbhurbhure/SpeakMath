@@ -46,6 +46,12 @@
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Your Score" VerticalAlignment="Top" Margin="133,79,0,0" Height="42" Width="173" Foreground="#FF06F5F0" FontSize="36"/>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="SCORE" VerticalAlignment="Top" Margin="185,145,0,0" Height="42" Width="59" Foreground="#FF06F5F0" FontSize="36"/>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="New High Score" VerticalAlignment="Top" Margin="147,192,0,0" Height="42" Width="159" Foreground="Red"/>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Enter Your Name" VerticalAlignment="Top" Margin="117,257,0,0" Height="42" Width="188" Foreground="#FF06F5F0" FontSize="24"/>
+            <Button Content="SUBMIT" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="108,383,0,0" Foreground="#FF0BF7F7" BorderBrush="#FFA491F9" Width="204" Height="83" />
+            <TextBox HorizontalAlignment="Left" Height="69" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="301" Margin="67,294,0,0" BorderBrush="White" Foreground="#FF02C0F7" Background="{StaticResource TransparentBrush}" FontSize="20"/>
 
         </Grid>
     </Grid>

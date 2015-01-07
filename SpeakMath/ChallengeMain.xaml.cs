@@ -16,5 +16,10 @@ namespace SpeakMath
         {
             InitializeComponent();
         }
+
+        private void ContentPanel_DoubleTap(object sender, System.Windows.Input.GestureEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/score.xaml", UriKind.Relative));
+        }
     }
 }

@@ -195,6 +195,15 @@
     <Content Include="Assets\ApplicationIcon.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Assets\ChallengeComp.mp3" />
+    <Content Include="Assets\clickbtn.mp3" />
+    <Content Include="Assets\Correct.mp3" />
+    <Content Include="Assets\countdown.mp3" />
+    <Content Include="Assets\Icon.png" />
+    <Content Include="Assets\LevelChange.mp3" />
+    <Content Include="Assets\right.png" />
+    <Content Include="Assets\SoundToggle.mp3" />
+    <Content Include="Assets\StartPage.mp3" />
     <Content Include="Assets\Tiles\FlipCycleTileLarge.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -210,6 +219,8 @@
     <Content Include="Assets\Tiles\IconicTileSmall.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Assets\wrong.mp3" />
+    <Content Include="Assets\wrong.png" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\AppResources.resx">

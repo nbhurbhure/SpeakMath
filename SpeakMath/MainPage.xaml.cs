@@ -22,6 +22,16 @@ namespace SpeakMath
             //BuildLocalizedApplicationBar();
         }
 
+        private void ContentPanel_DoubleTap(object sender, System.Windows.Input.GestureEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/SpeakMathList.xaml", UriKind.Relative));
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/SpeakMathList.xaml", UriKind.Relative));
+        }
+
         // Sample code for building a localized ApplicationBar
         //private void BuildLocalizedApplicationBar()
         //{

@@ -45,8 +45,12 @@
         </Grid>
 
         <!--ContentPanel - place additional content here-->
-        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,151,12,0">
-
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,10,12,0">
+            <Button x:Name="btnAddition" Content="ADDITION" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="77,30,0,0" Foreground="#FF0BF7F7" BorderBrush="#FFA491F9" Width="301" Height="74" Click="btnAddition_Click"/>
+            <Button Content="SUBSTRACTION" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="77,122,0,0" Foreground="#FF0BF7F7" BorderBrush="#FFA491F9" Width="301" Height="74" Click="btnAddition_Click"/>
+            <Button Content="MULTIPLICATION" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="77,214,0,0" Foreground="#FF0BF7F7" BorderBrush="#FFA491F9" Width="301" Height="73" Click="btnAddition_Click"/>
+            <Button Content="DIVISION" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="77,306,0,0" Foreground="#FF0BF7F7" BorderBrush="#FFA491F9" Width="301" Height="73" Click="btnAddition_Click"/>
+            <Button x:Name="SpeechPractice" Content="SPEECH PRACTICE FOR NUMBERS" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="29,398,0,0" Foreground="#FF0BF7F7" BorderBrush="#FFA491F9" Width="396" Height="73" Click="SpeechPractice_Click"/>
         </Grid>
     </Grid>
 

@@ -17,7 +17,12 @@
     <Grid x:Name="LayoutRoot" Background="Transparent">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="49*"/>
+            <RowDefinition Height="91*"/>
+            <RowDefinition Height="130*"/>
+            <RowDefinition Height="145*"/>
+            <RowDefinition Height="74*"/>
+            <RowDefinition Height="139*"/>
         </Grid.RowDefinitions>
 
         <!--TitlePanel contains the name of the application and page title-->
@@ -45,7 +50,13 @@
         </Grid>
 
         <!--ContentPanel - place additional content here-->
-        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0" Grid.RowSpan="6" DoubleTap="ContentPanel_DoubleTap">
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Total number of Questions: " VerticalAlignment="Top" Margin="20,54,0,0" Height="38" Width="359" Foreground="#FF06F5F0"/>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Question No." VerticalAlignment="Top" Margin="20,100,0,0" Height="38" Width="359" Foreground="#FF06F5F0"/>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Your Answer Heard" VerticalAlignment="Top" Margin="20,167,0,0" Height="38" Width="181" Foreground="#FF06F5F0"/>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Correct Answer." VerticalAlignment="Top" Margin="247,166,0,0" Height="38" Width="156" Foreground="#FF06F5F0"/>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="App don't understand my Pronaunciation. goto " VerticalAlignment="Top" Margin="14,423,0,0" Height="33" Width="429" Foreground="#FF06F5F0"/>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Practice -> Speech Practice for Numbers." VerticalAlignment="Top" Margin="14,456,0,0" Height="34" Width="429" Foreground="#FF06F5F0"/>
 
         </Grid>
     </Grid>

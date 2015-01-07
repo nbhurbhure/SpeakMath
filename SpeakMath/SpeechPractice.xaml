@@ -45,7 +45,13 @@
         </Grid>
 
         <!--ContentPanel - place additional content here-->
-        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,10">
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="ENTER RANGE" VerticalAlignment="Top" Margin="105,119,0,0" Height="54" Width="242" Foreground="#FF06F5F0" FontSize="36"/>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="SPEAK MATH" VerticalAlignment="Top" Margin="7,1,0,0" Height="42" Width="450" Foreground="#FF06F5F0" Grid.RowSpan="2" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2"/>
+            <TextBox HorizontalAlignment="Left" Height="69" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="73" Margin="113,178,0,0" BorderBrush="White" Foreground="#FF02C0F7" Background="{StaticResource TransparentBrush}" FontSize="20"/>
+            <Button x:Name="btnPractice" Content="PRACTICE" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="74,273,0,0" Foreground="#FF0BF7F7" BorderBrush="#FFA491F9" Width="301" Height="83" Click="btnPractice_Click"/>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="To" VerticalAlignment="Top" Margin="199,201,0,0" Height="42" Width="33" Foreground="#FF06F5F0" FontSize="24"/>
+            <TextBox HorizontalAlignment="Left" Height="69" TextWrapping="Wrap" Text="10" VerticalAlignment="Top" Width="73" Margin="243,178,0,0" BorderBrush="White" Foreground="#FF02C0F7" Background="{StaticResource TransparentBrush}" FontSize="20"/>
 
         </Grid>
     </Grid>

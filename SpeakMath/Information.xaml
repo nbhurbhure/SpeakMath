@@ -46,6 +46,10 @@
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <TextBlock Text="  Please rate this app now." Foreground="#FF06F5E0" Margin="0,51,0,-51"/>
+            <Button Content="RATE THIS APP NOW" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1,104,0,0" Foreground="#FF0BF7F7" BorderBrush="#FFA491F9" Width="445" Height="70" />
+            <TextBlock Text="Based on response from users, I am going to add more features. Always interested to here from you. Your suggestions are Welcome. Please mail me at:"  Margin="10,217,1,290" Foreground="#FF06F5E0" TextWrapping="Wrap"/>
+            <TextBlock Text="nbhurbhure@live.com" Margin="10,342,231,258" Foreground="#FF06F5E0" TextWrapping="Wrap" FontWeight="Bold"/>
 
         </Grid>
     </Grid>
